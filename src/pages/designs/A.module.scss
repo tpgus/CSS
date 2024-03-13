@@ -1,0 +1,46 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+
+  > section {
+    height: 200vh;
+    background: url('../../assets/image1.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  > .section2 {
+    height: 100vh;
+    background: url('../../assets/image2.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  > .text {
+    background-color: black;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    > h2 {
+      color: white;
+      font-size: 2rem;
+      font-weight: 200;
+      text-transform: uppercase;
+      letter-spacing: 0.5rem;
+      line-height: 5em;
+
+      > span {
+        font-size: 5em;
+        font-weight: 900;
+        letter-spacing: 0;
+        background: url('../../assets/image3.jpg');
+        background-size: cover;
+        background-attachment: fixed;
+        background-clip: text;
+        color: transparent;
+      }
+    }
+  }
+}
